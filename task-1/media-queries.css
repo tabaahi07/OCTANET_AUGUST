@@ -1,0 +1,656 @@
+@media (max-width: 319.98px) {
+    body{
+        width: 100%;
+    }
+
+    #area-principal {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo-navbar {
+        width: 45%;
+    }
+
+    .botao-nav{
+        width: 40%;
+    }
+    
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    .texto-principal {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .caixa {
+        margin: 20px 5px;
+    }
+
+    .texto-caixa{
+        padding: 5px;
+        text-align: center;
+    }
+
+    #area-botao-começar .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 80%;
+        height: 0%;
+    }
+
+    .botao-centralizado .botao-principal {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 85%;
+    }
+
+    footer {
+        padding: 150px 20px;
+    }
+
+    footer ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .menu-rodape{
+        margin-left: 0;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+    
+
+}
+
+@media (min-width: 320px) and (max-width: 374.98px) {
+    body{
+        width: 100%;
+    }
+
+    #area-principal {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo-navbar {
+        width: 50%;
+    }
+
+    .botao-nav{
+        width: 40%;
+        font-size: 14px;
+    }
+    
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    .texto-principal {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .caixa {
+        margin: 20px 20px;
+    }
+
+    .texto-caixa{
+        padding: 10px;
+        text-align: center;
+    }
+    .texto-caixa h3 {
+        font-size: 20px;
+    }
+    .texto-caixa p {
+        font-size: 15px;
+    }
+
+    #area-botao-começar .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 80%;
+        height: 0%;
+    }
+
+    .botao-centralizado .botao-principal {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 85%;
+    }
+
+    footer {
+        padding: 150px 20px;
+    }
+
+    footer ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .menu-rodape{
+        margin-left: 0;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+    body{
+        width: 100%;
+    }
+
+    #area-principal {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo-navbar {
+        width: 45%;
+    }
+
+    .botao-nav{
+        width: 40%;
+    }
+    
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    .texto-principal {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .caixa {
+        margin: 20px 0px;
+    }
+
+    .texto-caixa{
+        padding: 10px;
+        text-align: center;
+    }
+
+    #area-botao-começar .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 80%;
+        height: 0%;
+        margin: 0;
+    }
+
+    .botao-centralizado .botao-principal {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 85%;
+    }
+
+    footer {
+        padding: 150px 20px;
+    }
+
+    footer ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .menu-rodape{
+        margin-left: 0;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+}
+
+
+
+
+/*Extra small devices (portrait phones, menor que 576px)*/
+@media (min-width: 425px) and (max-width: 575.98px) {
+    body{
+        width: 100%;
+    }
+
+    #area-principal {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo-navbar {
+        width: 45%;
+    }
+    
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    .texto-principal {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .caixa {
+        margin: 20px 50px;
+    }
+
+    .texto-caixa{
+        padding: 10px;
+        text-align: center;
+    }
+
+    #area-botao-começar .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 90%;
+        height: 0%;
+    }
+
+    .botao-centralizado .botao-principal {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 85%;
+    }
+
+    footer {
+        padding: 150px 20px;
+    }
+
+    footer ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .menu-rodape{
+        margin-left: 0;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px e maiores)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        width: 100%;
+    }
+
+    #area-principal {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo-navbar {
+        width: 35%;
+    }
+    
+    .foto {
+        display: flex;
+        justify-content: center;
+    }
+    .foto img {
+        width: 100%;
+    }
+    .texto-principal {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .caixa {
+        margin: 20px 50px;
+    }
+
+    .texto-caixa{
+        padding: 10px;
+        text-align: center;
+    }
+
+    #area-botao-começar .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 90%;
+    }
+    .botao-centralizado .botao-principal {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 85%;
+    }
+
+    footer {
+        padding: 150px 20px;
+    }
+
+    footer ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .menu-rodape{
+        margin-left: 0;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*Medium devices (tablets, 768px e maiores)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+        width: 100%;
+    }
+
+    #area-principal {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo-navbar {
+        width: 30%;
+    }
+
+    .foto{
+        display: flex;
+        align-self: center;
+    }
+
+    .foto img {
+        width: 90%;
+    }
+    .titulo {
+        font-size: 36px;
+        padding-right: 50px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        padding-right: 50px;
+    }
+
+    .botao-principal {
+        width: 200px;
+    }
+    
+    .caixa {
+        margin: 20px 50px;
+    }
+
+    .texto-caixa{
+        padding: 10px;
+        text-align: center;
+    }
+
+    #area-botao-começar .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 90%;
+    }
+    .botao-centralizado .botao-principal {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 85%;
+    }
+
+    footer {
+        padding: 150px 20px 50px 20px;
+    }
+
+    footer ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .info-site{
+        padding-right: 30px;
+    }
+
+    .menu-rodape{
+        margin-left: 0;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*Large devices (desktops, 992px e maiores)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body{
+        width: 100%;
+    }
+
+    #area-principal {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo-navbar {
+        width: 30%;
+    }
+
+    .foto{
+        display: flex;
+        align-self: center;
+    }
+
+    .foto img {
+        width: 90%;
+    }
+    .titulo {
+        font-size: 36px;
+        padding-right: 50px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        padding-right: 50px;
+    }
+
+    .botao-principal {
+        width: 200px;
+    }
+    
+    .caixa {
+        margin: 20px 50px;
+    }
+
+    .texto-caixa{
+        padding: 10px;
+        text-align: center;
+    }
+
+    #area-botao-começar .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 90%;
+    }
+    .botao-centralizado .botao-principal {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 85%;
+    }
+
+    footer {
+        padding: 150px 20px 50px 20px;
+    }
+
+    footer ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .info-site{
+        padding-right: 30px;
+    }
+
+    .menu-rodape{
+        margin-left: 0;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px  e maiores)*/
+@media (min-width: 1200px) {
+    body{
+        width: 100%;
+    }
+
+    #area-principal {
+        background-image: url(./images/bg-hero-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo-navbar {
+        width: 17%;
+    }
+
+    .foto{
+        display: flex;
+        align-self: center;
+    }
+
+    .foto img {
+        width: 90%;
+    }
+    .titulo {
+        font-size: 36px;
+        padding-right: 50px;
+    }
+
+    .subtitulo {
+        font-size: 18px;
+        padding-right: 50px;
+    }
+
+    .botao-principal {
+        width: 200px;
+    }
+    
+    .caixa {
+        margin: 20px 180px;
+    }
+
+    .texto-caixa{
+        padding: 10px;
+        text-align: center;
+    }
+
+    #area-botao-começar .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        min-width: 90%;
+    }
+    .botao-centralizado .botao-principal {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 85%;
+    }
+
+    footer {
+        padding: 150px 20px 50px 20px;
+    }
+
+    footer ul li {
+        margin: 0 0 20px 0;
+    }
+
+    .info-site{
+        padding-right: 30px;
+    }
+
+    .menu-rodape{
+        margin-left: 0;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}

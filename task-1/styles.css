@@ -1,0 +1,157 @@
+/*FORMATAÇÃO GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+/*FORMATAÇÃO ÁREA PRINCIPAL*/
+#area-principal {
+    background: url(./images/bg-hero-desktop.svg) no-repeat hsl(193, 100%, 96%);
+    padding-bottom: 4em;
+}
+.titulo {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.botao-nav {
+    width: 150px;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+.botao-nav:hover {
+    cursor: pointer;
+    background-color: white;
+    color: hsl(208, 11%, 55%);
+}
+.botao-nav.btn:focus{
+    background-color: white;
+}
+.botao-nav.btn {
+    border-radius: 2.5rem;
+    border-width: 0
+}
+.botao-principal {
+    width: 300px;
+    height: 50px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+.botao-principal.btn {
+    border-radius: 2.5rem;
+    border-width: 0
+}
+.botao-principal:hover{
+    background-color: hsla(322, 100%, 66%,0.5);
+    color: white;
+}
+.botao-principal.btn:focus{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+/*FORMATAÇÃO ÁREA DOS CARDS*/
+#area-cards{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.caixa {
+    border-radius: 20px;
+    margin:  20px 180px 20px 180px;
+    padding: 20px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+}
+.caixa img {
+    width: 100%;
+}
+.texto-caixa{
+    padding: 85px;
+}
+.texto-caixa h3 {
+    margin-bottom: 25px;
+    color: hsl(192, 100%, 9%);
+}
+.texto-caixa p {
+    color: hsl(208, 11%, 55%);
+}
+
+/*FORMATAÇÃO BLOCO FLUTUANTE*/
+#area-botao-comecar .container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: auto;
+    width: 55%;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    transform: translate(0,37%);
+    background-color: white;
+}
+
+
+.botao-centralizado {
+    margin-top: 20px;
+}
+
+/*FORMATAÇÃO RODAPÉ*/
+footer {
+    color: white;
+    background-color: hsl(192, 100%, 9%);
+    padding: 100px 180px 50px 180px;
+}
+
+.logo {
+    background-color: white;
+}
+
+.botao-rodape {
+    border: 1px solid white;
+    padding: 23px 12px;
+    border-radius: 100%;
+    color: white;
+    margin-right: 10px;
+}
+
+.botao-rodape:hover{
+    border-color: hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+#instagram.botao-rodape{
+    padding: 23px 14px;
+}
+
+footer ul li {
+    margin: 0 0 20px 0;
+}
+
+footer ul li a, footer ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright{
+    display: flex;
+    justify-content: end;
+}
+
+.menu-rodape{
+    margin-left: 30px;
+}
